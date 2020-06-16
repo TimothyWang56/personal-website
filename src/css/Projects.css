@@ -1,0 +1,48 @@
+.projects-container {
+  width: 70%;
+  padding-bottom: 30px;
+}
+
+.projects-scroll-view {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.project-flip-card {
+  background-color: transparent;
+  min-width: 300px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+}
+
+.project-flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.project-flip-card:hover .project-flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.project-flip-card-front, .project-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.project-flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.project-flip-card-back {
+  background-color: #FFF5BA;
+  color: black;
+  transform: rotateY(180deg);
+}
