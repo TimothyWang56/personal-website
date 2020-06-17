@@ -8,17 +8,27 @@ const experiencesInfo = [
     date: "May 2020 - Present",
     logo: "",
     title: "Full Stack Software Engineering Intern",
-    description: "I'm currently working as a Software Engineering Intern " +
+    description: "I'm a Software Engineering Intern " +
       "for Cress Health Inc., a startup that's aiming to help workers in " +
-      "the healthcare industry manage their stress.",
+      "the healthcare industry manage their stress. I'm currently working on the " +
+      "back-end of our web application. The APIs are written using JavaScript, " +
+      "and I'm using the Express framework for API development, " + 
+      "Azure Cosmos DB for the database, " +
+      "and Azure App Service to deploy the APIs. For the front-end, we're using React."
   },
   {
     company: "Brown University Department of Computer Science",
     date: "March 2020 - Present",
     logo: "",
     title: "Head Teaching Assistant",
-    description: "I was chosen to be a Head Teaching Assistant for one of " +
-      "Brown University's introductory computer science courses, CSCI0170."
+    description: "I'm a Head Teaching Assistant for one of " +
+      "Brown University's introductory computer science courses, " +
+      "CSCI0170 - Computer Science: An Integrated Introduction. " +
+      "The course teaches functional programming through 2 languages, " +
+      "Racket and ReasonML. Some of my responsibilities include developing " +
+      "course material and deciding on changes for the upcoming Fall 2020 semester. " +
+      "We're also currently putting together a team of " +
+      "~20 teaching assistants to help us in the Fall semester."
   },
   {
     company: "Cress Health",
