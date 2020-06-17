@@ -36,14 +36,20 @@ const experiencesInfo = [
     logo: "",
     title: "Front-End Software Engineering Intern",
     description: "During the Spring semester of my sophomore year, I worked " +
-      "on Cress's iOS application and implemented the home page.",
+      "on Cress's iOS application and implemented the home page. The app was " +
+      "built using React Native.",
   },
   {
     company: "Brown University Department of Computer Science",
     date: "August 2019 - May 2020",
     logo: "",
     title: "Teaching Assistant",
-    description: "Put description here"
+    description: "I was an undergraduate teaching assistant for " +
+      "both the Fall (CSCI0170) and Spring (CSCI0180) semester of my sophomore year. " +
+      "For both semesters, I was working on the homeworks teams, which meant I " +
+      "was responsible for editing and testing homework assignments before releasing them, " +
+      "as well as grading and reviewing homeworks for plagiarism using Stanford's MOSS API. " +
+      "CSCI0170 was taught in Racket and ReasonML, and CSCI0180 was taught in Java and Scala."
   },
 ]
 
