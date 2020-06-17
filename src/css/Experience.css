@@ -5,10 +5,8 @@
 }
 
 .exp-flip-card {
-  flex: 1 1 auto;
-  width: 100%;
-  height: 125px;
-  border: 1px solid transparent;
+  height: 10em;
+  margin-bottom: 2px; 
 }
 
 .exp-flip-card-inner {
@@ -20,11 +18,18 @@
 }
 
 .exp-flip-card:hover .exp-flip-card-inner {
-  transform: rotateX(180deg);
+  -webkit-transform: translate3d(0,0,0);
+  transform: rotateX(-180deg);
+}
+
+.exp-flip-card:hover {
+  position: relative;
+  z-index: 2;
 }
 
 .exp-flip-card-front, .exp-flip-card-back {
   position: absolute;
+  z-index: 1;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
@@ -41,6 +46,10 @@
 }
 
 .exp-flip-card-back {
+  min-height: 100%;
+  bottom: 0;
+  height: fit-content;
   background-color: #c5efff;
+  -webkit-transform: translate3d(0,0,0);
   transform: rotateX(180deg);
 }
