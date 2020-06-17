@@ -4,3 +4,31 @@
     padding-top: 50px;
     align-items: center;
 }
+
+@font-face {
+    font-family: 'josefin-sans';
+    src: url('../assets/fonts/JosefinSans-VariableFont_wght.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'roboto-mono-light';
+    src: url('../assets/fonts/RobotoMono-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'roboto-mono-medium';
+    src: url('../assets/fonts/RobotoMono-Medium.ttf') format('truetype')
+}
+
+h1 {
+    font-family: josefin-sans;
+}
+
+h4 {
+    font-family: roboto-mono-medium
+}
+
+p {
+    font-family: roboto-mono-light;
+    font-size: 0.85em;
+}

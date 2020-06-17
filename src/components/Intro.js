@@ -7,7 +7,7 @@ function Intro() {
     <div className="intro-container">
       
       <div className="intro-card">
-        <img src={require('../assets/portrait.png')} className="portrait"></img>
+        <img src={require('../assets/images/portrait.png')} className="portrait"></img>
         
         <text className='intro-text'>
           <h1>About Me</h1>

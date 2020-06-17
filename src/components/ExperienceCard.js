@@ -8,8 +8,7 @@ class ExperienceCard extends React.Component {
         <div class="exp-flip-card-inner">
           <div class="exp-flip-card-front">
             <h4>{this.props.company}</h4>
-            <p>{this.props.title}</p>
-            <p>{this.props.date}</p>
+            <p>{this.props.title}<br/>{this.props.date}</p>
           </div>
           <div class="exp-flip-card-back">
             <p>{this.props.description}</p>

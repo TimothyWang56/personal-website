@@ -30,7 +30,8 @@ const experiencesInfo = [
   },
   {
     company: "Brown University Department of Computer Science",
-    logo: "August 2019 - May 2020",
+    date: "August 2019 - May 2020",
+    logo: "",
     title: "Teaching Assistant",
     description: "Put description here"
   },

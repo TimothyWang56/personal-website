@@ -7,12 +7,11 @@ class ProjectCard extends React.Component {
       <div class="project-flip-card">
         <div class="project-flip-card-inner">
           <div class="project-flip-card-front">
-            <img src={require("../assets/giveyourtwocentslogo1.png")}/>
+            <img src={require("../assets/images/giveyourtwocentslogo1.png")}/>
           </div>
           <div class="project-flip-card-back">
-            <h1>{this.props.projectName}</h1>
-            <p>{this.props.description}</p>
-            <p>{this.props.technologies}</p>
+            <h4>{this.props.projectName}</h4>
+            <p>{this.props.description}<br/>{this.props.technologies}</p>
           </div>
         </div>
       </div>
