@@ -11,7 +11,7 @@ const experiencesInfo = [
     description: "I'm a Software Engineering Intern " +
       "for Cress Health Inc., a startup that's aiming to help workers in " +
       "the healthcare industry manage their stress. I'm currently working on the " +
-      "back-end of our web application. The APIs are written using JavaScript, " +
+      "back-end of our web application. The APIs I'm implementing are written using JavaScript, " +
       "and I'm using the Express framework for API development, " + 
       "Azure Cosmos DB for the database, " +
       "and Azure App Service to deploy the APIs. For the front-end, we're using React."
@@ -34,7 +34,7 @@ const experiencesInfo = [
     company: "Cress Health",
     date: "February 2020 - May 2020",
     logo: "",
-    title: "Front-End Software Engineering Intern",
+    title: "Front-End Developer",
     description: "During the Spring semester of my sophomore year, I worked " +
       "on Cress's iOS application and implemented the home page. The app was " +
       "built using React Native.",

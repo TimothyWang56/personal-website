@@ -5,43 +5,43 @@ import ProjectCard from './ProjectCard';
 const projectInfo = [
   {
     projectName: "Give Your Two Cents",
-    logo: "../assets/giveyourtwocentslogo1.png",
+    logo: require("../assets/images/giveyourtwocentslogo1.png"),
+    description: "Chrome extension for Hack the Northeast 2020 and Winner of Most Viable Startup Category",
+    technologies: "JavaScript, HTML, CSS"
+  },
+  {
+    projectName: "The Admiral",
+    logo: require("../assets/images/theadmiral-logo.png"),
+    description: "4-player computer game combining elements from social deduction and racing games",
+    technologies: "C#, Unity"
+  },
+  {
+    projectName: "Give Your Two Cents",
+    logo: require("../assets/images/giveyourtwocentslogo1.png"),
     description: "Project for HTNE 2020",
     technologies: "JavaScript, HTML, CSS, Chrome Extension"
   },
   {
     projectName: "Give Your Two Cents",
-    logo: "../assets/giveyourtwocentslogo1.png",
+    logo: require("../assets/images/giveyourtwocentslogo1.png"),
     description: "Project for HTNE 2020",
     technologies: "JavaScript, HTML, CSS, Chrome Extension"
   },
   {
     projectName: "Give Your Two Cents",
-    logo: "../assets/giveyourtwocentslogo1.png",
+    logo: require("../assets/images/giveyourtwocentslogo1.png"),
     description: "Project for HTNE 2020",
     technologies: "JavaScript, HTML, CSS, Chrome Extension"
   },
   {
     projectName: "Give Your Two Cents",
-    logo: "../assets/giveyourtwocentslogo1.png",
+    logo: require("../assets/images/giveyourtwocentslogo1.png"),
     description: "Project for HTNE 2020",
     technologies: "JavaScript, HTML, CSS, Chrome Extension"
   },
   {
     projectName: "Give Your Two Cents",
-    logo: "../assets/giveyourtwocentslogo1.png",
-    description: "Project for HTNE 2020",
-    technologies: "JavaScript, HTML, CSS, Chrome Extension"
-  },
-  {
-    projectName: "Give Your Two Cents",
-    logo: "../assets/giveyourtwocentslogo1.png",
-    description: "Project for HTNE 2020",
-    technologies: "JavaScript, HTML, CSS, Chrome Extension"
-  },
-  {
-    projectName: "Give Your Two Cents",
-    logo: "../assets/giveyourtwocentslogo1.png",
+    logo: require("../assets/images/giveyourtwocentslogo1.png"),
     description: "Project for HTNE 2020",
     technologies: "JavaScript, HTML, CSS, Chrome Extension"
   },
@@ -55,7 +55,7 @@ function Projects() {
         projectName={project.projectName}
         description={project.description}
         logo={project.logo}
-        technologies={project.technologies}
+        technologies={"Built using: " + project.technologies}
       />
     )
   });

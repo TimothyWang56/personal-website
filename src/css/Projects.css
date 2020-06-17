@@ -45,4 +45,12 @@
   background-color: #FFF5BA;
   color: black;
   transform: rotateY(180deg);
+  text-align: start;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.front-image {
+  height: 100%;
+  max-width: 100%;
 }
