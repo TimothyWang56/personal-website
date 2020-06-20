@@ -6,7 +6,6 @@
 .projects-view {
   display: flex;
   flex-wrap: wrap;
-  /* overflow-x: scroll; */
 
 }
 
@@ -55,4 +54,25 @@
 .front-image {
   height: 100%;
   max-width: 100%;
+}
+
+.project-flip-card-back h4 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.project-flip-card-back p {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+
+.links-container {
+  /* margin-bottom: 10em; */
+  position: absolute;
+  bottom: 1em;
+}
+
+.links-container a {
+  /* position: relative; */
+  margin-right: 0.5em;
 }
