@@ -45,7 +45,7 @@ const experiencesInfo = [
     logo: "",
     title: "Teaching Assistant",
     description: "I was an undergraduate teaching assistant for " +
-      "both the Fall (CSCI0170) and Spring (CSCI0180) semester of my sophomore year. " +
+      "both the Fall (CSCI0170) and Spring (CSCI0180) semesters of my sophomore year. " +
       "For both semesters, I was working on the homeworks teams, which meant I " +
       "was responsible for editing and testing homework assignments before releasing them, " +
       "as well as grading and reviewing homeworks for plagiarism using Stanford's MOSS API. " +
@@ -54,26 +54,31 @@ const experiencesInfo = [
 ]
 
 
-function Experience() {
-  const experiences = experiencesInfo.map(experience => {
-    return (
-      <ExperienceCard
-        current={experience.current}
-        date={experience.date}
-        company={experience.company}
-        logo={experience.logo}
-        title={experience.title}
-        description={experience.description}
-      />
-    )
-  });
+class Experience extends React.Component {
 
-  return (
-    <div className="experience-container">
-      <h1>Experiences</h1>
-      {experiences}
-    </div>
-  );
+  renderCards() {
+    return experiencesInfo.map(experience => {
+      return (
+        <ExperienceCard
+          current={experience.current}
+          date={experience.date}
+          company={experience.company}
+          logo={experience.logo}
+          title={experience.title}
+          description={experience.description}
+        />
+      )
+    });
+  }
+
+  render() {
+    return (
+      <div className="experience-container">
+        <h1>Experiences</h1>
+        {this.renderCards()}
+      </div>
+    );
+  }
 }
 
 export default Experience;

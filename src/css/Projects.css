@@ -3,13 +3,15 @@
   padding-bottom: 30px;
 }
 
-.projects-scroll-view {
+.projects-view {
   display: flex;
-  overflow-x: scroll;
+  flex-wrap: wrap;
+  /* overflow-x: scroll; */
+
 }
 
 .project-flip-card {
-  min-width: 300px;
+  flex: 1 1 auto;
   width: 300px;
   height: 200px;
   border: 1px solid transparent;
