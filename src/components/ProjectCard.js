@@ -9,17 +9,17 @@ class ProjectCard extends React.Component {
 
   renderLinks() {
     const links = [
-      this.props.githubLink !== null ? <a href={this.props.githubLink}>GITHUB</a> : null,
-      this.props.devpostLink !== null ? <a href={this.props.devpostLink}>DEVPOST</a> : null
+      this.props.githubLink && <a href={this.props.githubLink}>GITHUB</a>,
+      this.props.devpostLink && <a href={this.props.devpostLink}>DEVPOST</a>
     ];
     return links;
   }
 
   render() {
     return (
-      <div className="project-flip-card">
+      <div className="project-flip-card disable-scrollbar">
         <div className="project-flip-card-inner">
-          <div className="project-flip-card-front">
+          <div style={{backgroundColor: this.props.backgroundColor}} className="project-flip-card-front">
             {this.renderFront()}
           </div>
           <div className="project-flip-card-back">

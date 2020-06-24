@@ -6,10 +6,11 @@ const projectInfo = [
   {
     projectName: "The Admiral",
     logo: require("../assets/images/theadmiral.gif"),
-    description: "4-player computer game combining elements from social deduction and racing games",
+    description: "4-player social deduction/racing game set in a procedurally-generated underwater world",
     technologies: "C#, Unity",
     githubLink: null,
     devpostLink: null,
+    backgroundColor: "#bbb"
   },
   {
     projectName: "Rhyme Time",
@@ -18,6 +19,7 @@ const projectInfo = [
     technologies: "Python, Tensorflow",
     githubLink: "https://github.com/zhaovan/lstm-rhyme-time",
     devpostLink: null,
+    backgroundColor: "white"
   },
   {
     projectName: "Rubik's Cube Simulator",
@@ -26,6 +28,7 @@ const projectInfo = [
     technologies: "Python, PyGame, OpenGL",
     githubLink: "https://github.com/TimothyWang56/rubiks-cube",
     devpostLink: null,
+    backgroundColor: "black"
   },
   {
     projectName: "Give Your Two Cents",
@@ -34,6 +37,7 @@ const projectInfo = [
     technologies: "JavaScript, HTML, CSS",
     githubLink: "https://github.com/TimothyWang56/give-your-two-cents",
     devpostLink: "https://devpost.com/software/charity-tracker-chrome-extension",
+    backgroundColor: "#bbb"
   },
 ]
 
@@ -52,6 +56,7 @@ class Projects extends React.Component {
           technologies={project.technologies}
           githubLink={project.githubLink}
           devpostLink={project.devpostLink}
+          backgroundColor={project.backgroundColor}
         />
       )
     });

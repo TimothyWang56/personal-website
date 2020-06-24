@@ -20,6 +20,31 @@
     src: url('../assets/fonts/RobotoMono-Medium.ttf') format('truetype')
 }
 
+@font-face {
+    font-family: 'hind-madurai-light';
+    src: url('../assets/fonts/HindMadurai-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'libre-baskerville';
+    src: url('../assets/fonts/LibreBaskerville-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'sorts-mill-goudy';
+    src: url('../assets/fonts/SortsMillGoudy-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'open-sans-light';
+    src: url('../assets/fonts/OpenSans-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'open-sans';
+    src: url('../assets/fonts/OpenSans-Regular.ttf') format('truetype')
+}
+
 h1 {
     font-family: josefin-sans;
 }
@@ -29,6 +54,6 @@ h4 {
 }
 
 p {
-    font-family: roboto-mono-light;
-    font-size: 0.9em;
+    font-family: open-sans-light;
+    font-weight: lighter;
 }

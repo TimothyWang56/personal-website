@@ -3,25 +3,39 @@
 }
 
 .intro-card {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     background-color: rgba(255, 156, 238, 0.5);
-    align-items: flex-start;
 }
 
 .portrait {
+    min-width: 200px;
     width: 150px;
+    max-width: 300px;
+    height: 100%;
     padding: 20px;
-    flex: 1 1 auto;
-    /* max-height: 400px; */
-    /* width: 100%; */
-    /* min-width: 300px;
-    max-height: 400px */
+    flex: 1;
+    align-self: center;
 }
 
-.intro-text {
-    /* min-width: 200px; */
-    width: 400px;
+.intro-container {
+    min-width: 200px;
     padding: 20px;
-    flex: 1 3 auto;
+    flex: 2;
+}
+
+.icon-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+.icon:hover {
+    color: #3f4141;
+    cursor: pointer;
 }

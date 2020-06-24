@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/Intro.css';
+// import { FALinkedIn } from 'react-icons/fa'
+import { MdDescription } from "react-icons/md";
 
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 class Intro extends React.Component {
 
@@ -11,7 +14,7 @@ class Intro extends React.Component {
         <div className="intro-card">
           <img src={require('../assets/images/portrait.png')} alt={""} className="portrait"></img>
           
-          <div className='intro-text'>
+          <div className='intro-container'>
             <h1>About Me</h1>
             <p>Hey there, and welcome to my website! I'm a rising junior at Brown University studying Applied Mathematics and Computer Science.
               In my free time, I really enjoy watching shows, playing board games, and solving puzzles. Since coming home during the pandemic,
@@ -23,6 +26,11 @@ class Intro extends React.Component {
               "really large bird I can stew" (7). The answer is titanic. Here's why: titanic means "really large", a tit is a "bird", and anic is "I can" stewed -
               in other words, the letters in "I can" mixed up. Really neat right?
             </p>
+            <div className='icon-bar'>
+              <MdDescription className='icon' size='2.5em' title='resume' onClick={() => window.open('', '_blank')}/>
+              <FaLinkedin className='icon' size='2.5em' title='linkedin' onClick={() => window.open('https://linkedin.com/in/timothywang56/', '_blank')}/>
+              <FaGithub className='icon' size='2.5em' title='github' onClick={() => window.open('https://github.com/TimothyWang56', '_blank')}/>
+            </div>
           </div>
         </div>
       </div>
