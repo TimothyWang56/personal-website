@@ -1,19 +1,16 @@
 .projects-container {
   width: 70%;
-  padding-bottom: 30px;
 }
 
 .projects-view {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
 }
 
 .project-flip-card {
   flex: 1 1 auto;
   width: 300px;
   height: 200px;
-  /* border: 1px solid transparent; */
   overflow-y: scroll;
 }
 

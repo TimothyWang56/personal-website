@@ -9,40 +9,14 @@
     font-family: 'josefin-sans';
     src: url('../assets/fonts/JosefinSans-VariableFont_wght.ttf') format('truetype')
 }
-
-@font-face {
-    font-family: 'roboto-mono-light';
-    src: url('../assets/fonts/RobotoMono-Light.ttf') format('truetype')
-}
-
 @font-face {
     font-family: 'roboto-mono-medium';
     src: url('../assets/fonts/RobotoMono-Medium.ttf') format('truetype')
 }
 
 @font-face {
-    font-family: 'hind-madurai-light';
-    src: url('../assets/fonts/HindMadurai-Light.ttf') format('truetype')
-}
-
-@font-face {
-    font-family: 'libre-baskerville';
-    src: url('../assets/fonts/LibreBaskerville-Regular.ttf') format('truetype')
-}
-
-@font-face {
-    font-family: 'sorts-mill-goudy';
-    src: url('../assets/fonts/SortsMillGoudy-Regular.ttf') format('truetype')
-}
-
-@font-face {
     font-family: 'open-sans-light';
     src: url('../assets/fonts/OpenSans-Light.ttf') format('truetype')
-}
-
-@font-face {
-    font-family: 'open-sans';
-    src: url('../assets/fonts/OpenSans-Regular.ttf') format('truetype')
 }
 
 h1 {

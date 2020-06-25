@@ -1,8 +1,9 @@
 import React from 'react';
 import '../css/App.css';
-import Intro from '../components/Intro';
-import Projects from '../components/Projects';
-import Experience from '../components/Experience';
+import Intro from './Intro';
+import Projects from './Projects';
+import Experience from './Experience';
+import Skills from './Skills';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Intro/>
         <Experience/>
         <Projects/>
+        <Skills/>
     </div>
   );
 }
