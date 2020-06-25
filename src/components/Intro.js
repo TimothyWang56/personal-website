@@ -27,11 +27,18 @@ class Intro extends React.Component {
               in other words, the letters in "I can" mixed up. Really neat right?
             </p>
             <div className='icon-bar'>
-              <a href='' target='_blank' className='icon'><MdDescription size='2.5em' title='resume'/></a>
-              <a href='mailto:timothywang56@gmail.com' target='_blank' className='icon'><FaEnvelope size='2.5em' title='email'/></a>
-              <a href='https://linkedin.com/in/timothywang56' target='_blank' className='icon'><FaLinkedin size='2.5em' title='linkedin'/></a>
-              <a href='https://github.com/TimothyWang56' target='_blank' className='icon'><FaGithub size='2.5em' title='github'/></a>
-              {/* <a href='https://linkedin.com/in/timothywang56' target='_blank' className='icon'><FaFacebook color='black' className='icon' size='2.5em' title='facebook'/></a> */}
+              <a href='' target='_blank' className='icon'>
+                <MdDescription size='2.5em' title='resume'/>
+              </a>
+              <a href='mailto:timothywang56@gmail.com' target='_blank' className='icon'>
+                <FaEnvelope size='2.5em' title='email'/>
+              </a>
+              <a href='https://linkedin.com/in/timothywang56' target='_blank' className='icon'>
+                <FaLinkedin size='2.5em' title='linkedin'/>
+              </a>
+              <a href='https://github.com/TimothyWang56' target='_blank' className='icon'>
+                <FaGithub size='2.5em' title='github'/>
+              </a>
             </div>
           </div>
         </div>
