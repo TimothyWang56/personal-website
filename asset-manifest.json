@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.da2b53a0.chunk.css",
+    "main.js": "/personal-website/static/js/main.7e8958b4.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.7e8958b4.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.3731dab7.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.3731dab7.js.map",
+    "static/js/2.80258b49.chunk.js": "/personal-website/static/js/2.80258b49.chunk.js",
+    "static/js/2.80258b49.chunk.js.map": "/personal-website/static/js/2.80258b49.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "precache-manifest.3f9ce0ae648f9c5b49f9cad26f760530.js": "/personal-website/precache-manifest.3f9ce0ae648f9c5b49f9cad26f760530.js",
+    "service-worker.js": "/personal-website/service-worker.js",
+    "static/css/main.da2b53a0.chunk.css.map": "/personal-website/static/css/main.da2b53a0.chunk.css.map",
+    "static/js/2.80258b49.chunk.js.LICENSE.txt": "/personal-website/static/js/2.80258b49.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/personal-website/static/media/RobotoMono-Medium.7cfbd428.ttf",
+    "static/media/azure-app-service.png": "/personal-website/static/media/azure-app-service.b691e48c.png",
+    "static/media/azure-cosmos-db.png": "/personal-website/static/media/azure-cosmos-db.d37398a2.png",
+    "static/media/cube.gif": "/personal-website/static/media/cube.c4c8c641.gif",
+    "static/media/giveyourtwocentslogo1.png": "/personal-website/static/media/giveyourtwocentslogo1.e508ad04.png",
+    "static/media/ocaml.png": "/personal-website/static/media/ocaml.b14f2b8c.png",
+    "static/media/portrait.png": "/personal-website/static/media/portrait.9d53f3e5.png",
+    "static/media/racket-logo.png": "/personal-website/static/media/racket-logo.5274ce48.png",
+    "static/media/rhymetime-model.png": "/personal-website/static/media/rhymetime-model.d00862e0.png",
+    "static/media/theadmiral.gif": "/personal-website/static/media/theadmiral.ce041b7f.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3731dab7.js",
+    "static/js/2.80258b49.chunk.js",
+    "static/css/main.da2b53a0.chunk.css",
+    "static/js/main.7e8958b4.chunk.js"
+  ]
+}
