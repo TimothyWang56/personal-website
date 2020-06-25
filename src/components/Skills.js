@@ -42,15 +42,15 @@ class Skills extends React.Component {
         <h1>Skills</h1>
         <div className="skills-card">
           <h4>Languages</h4>
-          <div>
+          <div className='skills-section'>
             {this.renderIcons(languageIcons)}
           </div>
           <h4>Frontend</h4>
-          <div>
+          <div className='skills-section'>
             {this.renderIcons(frontendIcons)}
           </div>
           <h4>Backend</h4>
-          <div>
+          <div className='skills-section'>
             {this.renderIcons(backendIcons)}
           </div>
         </div>
