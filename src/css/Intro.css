@@ -5,7 +5,7 @@
 .intro-card {
     display: inline-flex;
     flex-wrap: wrap;
-    background-color: rgba(255, 156, 238, 0.5);
+    background-color: #F3DDF2;
     justify-content: center;
 }
 

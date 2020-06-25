@@ -41,7 +41,7 @@
 }
 
 .exp-flip-card-front {
-  background-color: #ACE7FF;
+  background-color: #c9effd;
   color: black;
 }
 
@@ -49,7 +49,8 @@
   min-height: 100%;
   bottom: 0;
   height: fit-content;
-  background-color: #c5efff;
+  background-color: #d0f2ff;
+  /* background-color: #c5efff; */
   -webkit-transform: translate3d(0,0,0);
   transform: rotateX(180deg);
 }

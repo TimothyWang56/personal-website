@@ -41,7 +41,7 @@
 }
 
 .project-flip-card-back {
-  background-color: #FFF5BA;
+  background-color: #fff9d7;
   color: black;
   transform: rotateY(180deg);
   text-align: start;
