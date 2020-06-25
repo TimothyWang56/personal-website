@@ -32,7 +32,7 @@ class Skills extends React.Component {
   
   renderIcons(iconsList) {
     return iconsList.map(icon => {
-      return <img src={icon} className='skills-icon'></img>
+      return <img src={icon} alt={""} className='skills-icon'></img>
     })
   }
 

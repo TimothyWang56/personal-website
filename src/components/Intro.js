@@ -1,9 +1,7 @@
 import React from 'react';
 import '../css/Intro.css';
-// import { FALinkedIn } from 'react-icons/fa'
 import { MdDescription } from "react-icons/md";
-
-import { FaLinkedin, FaGithub, FaEnvelope, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 class Intro extends React.Component {
 
