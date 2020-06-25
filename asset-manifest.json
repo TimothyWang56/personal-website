@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e1c581b.chunk.css",
+    "main.css": "/static/css/main.0e4dad18.chunk.css",
     "main.js": "/static/js/main.ca06537d.chunk.js",
     "main.js.map": "/static/js/main.ca06537d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
@@ -8,9 +8,9 @@
     "static/js/2.80258b49.chunk.js": "/static/js/2.80258b49.chunk.js",
     "static/js/2.80258b49.chunk.js.map": "/static/js/2.80258b49.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2164e761d985f22ae39baad1dcbe5334.js": "/precache-manifest.2164e761d985f22ae39baad1dcbe5334.js",
+    "precache-manifest.7ab6ddf220a2b5bd80f16111f5c4591e.js": "/precache-manifest.7ab6ddf220a2b5bd80f16111f5c4591e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4e1c581b.chunk.css.map": "/static/css/main.4e1c581b.chunk.css.map",
+    "static/css/main.0e4dad18.chunk.css.map": "/static/css/main.0e4dad18.chunk.css.map",
     "static/js/2.80258b49.chunk.js.LICENSE.txt": "/static/js/2.80258b49.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/RobotoMono-Medium.7cfbd428.ttf",
     "static/media/azure-app-service.png": "/static/media/azure-app-service.b691e48c.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
     "static/js/2.80258b49.chunk.js",
-    "static/css/main.4e1c581b.chunk.css",
+    "static/css/main.0e4dad18.chunk.css",
     "static/js/main.ca06537d.chunk.js"
   ]
 }
