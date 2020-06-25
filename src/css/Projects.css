@@ -35,6 +35,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .project-flip-card-front {
