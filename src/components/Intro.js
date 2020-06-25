@@ -3,7 +3,7 @@ import '../css/Intro.css';
 // import { FALinkedIn } from 'react-icons/fa'
 import { MdDescription } from "react-icons/md";
 
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaFacebook } from "react-icons/fa";
 
 class Intro extends React.Component {
 
@@ -27,9 +27,11 @@ class Intro extends React.Component {
               in other words, the letters in "I can" mixed up. Really neat right?
             </p>
             <div className='icon-bar'>
-              <MdDescription className='icon' size='2.5em' title='resume' onClick={() => window.open('', '_blank')}/>
-              <FaLinkedin className='icon' size='2.5em' title='linkedin' onClick={() => window.open('https://linkedin.com/in/timothywang56/', '_blank')}/>
-              <FaGithub className='icon' size='2.5em' title='github' onClick={() => window.open('https://github.com/TimothyWang56', '_blank')}/>
+              <a href='' target='_blank' className='icon'><MdDescription size='2.5em' title='resume'/></a>
+              <a href='mailto:timothywang56@gmail.com' target='_blank' className='icon'><FaEnvelope size='2.5em' title='email'/></a>
+              <a href='https://linkedin.com/in/timothywang56' target='_blank' className='icon'><FaLinkedin size='2.5em' title='linkedin'/></a>
+              <a href='https://github.com/TimothyWang56' target='_blank' className='icon'><FaGithub size='2.5em' title='github'/></a>
+              {/* <a href='https://linkedin.com/in/timothywang56' target='_blank' className='icon'><FaFacebook color='black' className='icon' size='2.5em' title='facebook'/></a> */}
             </div>
           </div>
         </div>
