@@ -54,9 +54,74 @@ const experiencesInfo = [
 
 
 class Experience extends React.Component {
+constructor(props) {
+    super(props);
+
+    experiencesInfo.map(e => {
+      e.isHovering = false;
+      e.isFront = true;
+    });
+    this.state = {
+      showing: 0,
+      experiencesInfo,
+    };
+  }
+
+  async sleep(milliseconds) {
+    return new Promise(resolve => setTimeout(resolve, milliseconds))
+  }
+
+  toggleHoverOn(index) {
+    const experiences = this.state.experiencesInfo;
+    experiences.map((e, i) => {
+      if (i === index) {
+        e.isHovering = true;
+      } else {
+        e.isHovering = false;
+      }
+    });
+    this.setState({
+      experiencesInfo: experiences,
+      showing: 1,
+    });
+    this.sleep(150).then(() => {
+      experiences.map((e, i) => {
+        if (i === index) {
+          e.isFront = false;
+        } else {
+          e.isFront = true;
+        }
+      })
+      this.setState({
+        experiencesInfo: experiences,
+      });
+    });
+  }
+
+  toggleHoverOff(index) {
+    const experiences = this.state.experiencesInfo;
+    experiences.map((e) => {
+      e.isHovering = false;
+    });
+    // experiences[index].isHovering = false;
+    this.setState({
+      experiencesInfo: experiences,
+      showing: 0
+    });
+    this.sleep(150).then(() => {
+      experiences.map((e) => {
+        e.isFront = true;
+      })
+      // experiences[index].isFront = true;
+      this.setState({
+        experiencesInfo: experiences,
+      });
+    });
+  }
+  
 
   renderCards() {
-    return experiencesInfo.map(experience => {
+    return experiencesInfo.map((experience, i) => {
       return (
         <ExperienceCard
           current={experience.current}
@@ -65,6 +130,12 @@ class Experience extends React.Component {
           logo={experience.logo}
           title={experience.title}
           description={experience.description}
+          isHovering={experience.isHovering}
+          isFront={experience.isFront}
+          index={i}
+          toggleHoverOn={this.toggleHoverOn.bind(this)}
+          toggleHoverOff={this.toggleHoverOff.bind(this)}
+
         />
       )
     });
