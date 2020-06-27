@@ -6,8 +6,9 @@ class ExperienceCard extends React.Component {
     return (
       <div
         className="exp-card"
-        onMouseEnter={() => this.props.toggleHoverOn(this.props.index)}
-        onMouseLeave={() => this.props.toggleHoverOff(this.props.index)}
+        onClick={() => {this.props.isFront ? this.props.toggleHoverOn(this.props.index) : this.props.toggleHoverOff(this.props.index)}}
+        // onMouseEnter={() => this.props.toggleHoverOn(this.props.index)}
+        // onMouseLeave={() => this.props.toggleHoverOff(this.props.index)}
       >
         {this.props.isFront ?
           <div className="exp-card-front" style={{opacity: this.props.isHovering ? 0 : 1}}>
