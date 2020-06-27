@@ -9,8 +9,8 @@
 
 .project-flip-card {
   flex: 1 1 auto;
-  width: 300px;
-  height: 200px;
+  width: 20em;
+  height: 14em;
   overflow: hidden;
 }
 
@@ -67,8 +67,8 @@
 }
 
 .links-container {
-  position: absolute;
-  bottom: 1em;
+  /* position: absolute; */
+  /* bottom: 1em; */
 }
 
 .links-container a {
