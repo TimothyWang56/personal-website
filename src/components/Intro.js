@@ -7,13 +7,15 @@ class Intro extends React.Component {
 
   render() {
     return (
-      <div className="intro-container">
-        
-        <div className="intro-card">
+      <div className='intro-container'>
+        <div className='portrait-card'>
           <img src={require('../assets/images/portrait.png')} alt={""} className="portrait"></img>
-          
+          <h4 className='portrait-name'>Timothy Wang</h4>
+          <p className='portrait-description'>Boston, MA</p>
+        </div>
+        <div className='intro-card'>
+          <h1>About Me</h1>
           <div className='intro-text-container'>
-            <h1>About Me</h1>
             <p>Hey there, and welcome to my website! I'm a rising junior at Brown University studying Applied Mathematics and Computer Science.
               In my free time, I really enjoy watching shows, playing board games, and solving puzzles. Since coming home during the pandemic,
               my friends and I have been playing a lot of online Catan, so definitely hit me up if you love to play as well!

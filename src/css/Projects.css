@@ -43,7 +43,7 @@
 }
 
 .project-flip-card-back {
-  background-color: #fff9d7;
+  background-color: #faf5dc;
   color: black;
   transform: rotateY(180deg);
   text-align: start;
@@ -67,8 +67,7 @@
 }
 
 .links-container {
-  /* position: absolute; */
-  /* bottom: 1em; */
+  
 }
 
 .links-container a {
