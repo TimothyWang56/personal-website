@@ -10,7 +10,7 @@ const experiencesInfo = [
     title: "Full Stack Software Engineering Intern",
     description: "I'm a Software Engineering Intern \
       for Cress Health Inc., a startup that's aiming to help workers in \
-      the healthcare industry manage their stress. I'm currently working on the \
+      the healthcare industry manage their mental wellness. I'm currently working on the \
       back-end of our web application. So far, I've developed REST APIs using Node, Express, \
       Azure Cosmos DB, Azure Service Bus, and Azure App Service to handle account data, authentication, \
       and data analytics. For the front-end, we're using React."
@@ -49,6 +49,18 @@ const experiencesInfo = [
       was responsible for editing and testing homework assignments before releasing them, \
       as well as grading and reviewing homeworks for plagiarism using Stanford's MOSS API. \
       CSCI0170 was taught in Racket and ReasonML, and CSCI0180 was taught in Java and Scala."
+  },
+  {
+    company: "SciSquare",
+    date: "November 2019 - February 2020",
+    logo: "",
+    title: "Front-End Developer",
+    description: "SciSquare is an online lab management platform that aims to streamline \
+      all lab project-related tasks into one interface, including communication, project \
+      planning, scheduling, and equipment purchasing. \
+      The web application was built using React, and I was in charge of \
+      implementing the marketplace, which allowed users to search and make bulk orders of \
+      important laboratory equipment."
   },
 ]
 
