@@ -8,11 +8,12 @@
 
 .portrait-card {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .portrait {
-    border: 20px solid #F5D5CB;
     max-width: 250px;
 }
 
@@ -45,7 +46,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 20px;
-    align-self: flex-start;
 }
 
 .icon {

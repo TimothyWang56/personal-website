@@ -25,10 +25,14 @@ h1 {
 }
 
 h4 {
-    font-family: roboto-mono-medium
+    font-family: roboto-mono-medium;
 }
 
 p {
     font-family: open-sans-light;
     font-weight: lighter;
+}
+
+i {
+    font-family: open-sans-light;
 }
