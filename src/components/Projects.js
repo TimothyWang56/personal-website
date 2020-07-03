@@ -10,17 +10,9 @@ const projectInfo = [
     technologies: "C#, Unity",
     githubLink: null,
     devpostLink: null,
-    backgroundColor: "#bbb"
+    backgroundColor: "#fab7b7"
   },
-  {
-    projectName: "Rhyme Time",
-    logo: require("../assets/images/rhymetime-model.png"),
-    description: "LSTM neural network that generates limerick poems with perplexity of ~4.1",
-    technologies: "Python, Tensorflow",
-    githubLink: "https://github.com/zhaovan/lstm-rhyme-time",
-    devpostLink: null,
-    backgroundColor: "white"
-  },
+  
   {
     projectName: "Rubik's Cube Simulator",
     logo: require("../assets/images/cube.gif"),
@@ -31,6 +23,15 @@ const projectInfo = [
     backgroundColor: "black"
   },
   {
+    projectName: "Text Editor",
+    logo: require("../assets/images/text-editor.gif"),
+    description: "Text Editor with full file I/O and find functionality with regex support",
+    technologies: "Java, Swing",
+    githubLink: null,
+    devpostLink: null,
+    backgroundColor: "#aacdbe"
+  },
+  {
     projectName: "Give Your Two Cents",
     logo: require("../assets/images/giveyourtwocentslogo1.png"),
     description: "Chrome extension for Hack the Northeast 2020 and Winner of Most Viable Startup Category",
@@ -38,6 +39,15 @@ const projectInfo = [
     githubLink: "https://github.com/TimothyWang56/give-your-two-cents",
     devpostLink: "https://devpost.com/software/charity-tracker-chrome-extension",
     backgroundColor: "#bbb"
+  },
+  {
+    projectName: "Rhyme Time",
+    logo: require("../assets/images/rhymetime-model.png"),
+    description: "LSTM neural network that generates limerick poems with perplexity of ~4.1",
+    technologies: "Python, Tensorflow",
+    githubLink: "https://github.com/zhaovan/lstm-rhyme-time",
+    devpostLink: null,
+    backgroundColor: "white"
   },
 ]
 
