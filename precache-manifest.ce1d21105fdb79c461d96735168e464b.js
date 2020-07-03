@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d59ec3994ea03af1da6039b1e12f6f9d",
+    "revision": "e32cad7ec5d2125048422d0c2df4fdf1",
     "url": "/index.html"
   },
   {
-    "revision": "54c795f8d69aeaf4797b",
+    "revision": "04c918d1361214f8d249",
     "url": "/static/css/2.224294f0.chunk.css"
   },
   {
-    "revision": "dadbbe8cdc52b9a00a65",
+    "revision": "ae10a6c3fb7d768d95ad",
     "url": "/static/css/main.1aee269a.chunk.css"
   },
   {
-    "revision": "54c795f8d69aeaf4797b",
-    "url": "/static/js/2.44247b93.chunk.js"
+    "revision": "04c918d1361214f8d249",
+    "url": "/static/js/2.3347d523.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.44247b93.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3347d523.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dadbbe8cdc52b9a00a65",
-    "url": "/static/js/main.b3837447.chunk.js"
+    "revision": "ae10a6c3fb7d768d95ad",
+    "url": "/static/js/main.8fed9745.chunk.js"
   },
   {
     "revision": "0b4f3269348c2e5315e5",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d00862e08e577fa7d60dcb2dfd63d664",
     "url": "/static/media/rhymetime-model.d00862e0.png"
+  },
+  {
+    "revision": "1fb27376af2cca2eff143b78b9c6267b",
+    "url": "/static/media/text-editor.1fb27376.gif"
   },
   {
     "revision": "ce041b7f26143aac53bf51594cd59a5c",

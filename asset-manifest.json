@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.1aee269a.chunk.css",
-    "main.js": "/static/js/main.b3837447.chunk.js",
-    "main.js.map": "/static/js/main.b3837447.chunk.js.map",
+    "main.js": "/static/js/main.8fed9745.chunk.js",
+    "main.js.map": "/static/js/main.8fed9745.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9089ee33.js",
     "runtime-main.js.map": "/static/js/runtime-main.9089ee33.js.map",
     "static/css/2.224294f0.chunk.css": "/static/css/2.224294f0.chunk.css",
-    "static/js/2.44247b93.chunk.js": "/static/js/2.44247b93.chunk.js",
-    "static/js/2.44247b93.chunk.js.map": "/static/js/2.44247b93.chunk.js.map",
+    "static/js/2.3347d523.chunk.js": "/static/js/2.3347d523.chunk.js",
+    "static/js/2.3347d523.chunk.js.map": "/static/js/2.3347d523.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4e6a8e92a822109e99a82ec4336da8ac.js": "/precache-manifest.4e6a8e92a822109e99a82ec4336da8ac.js",
+    "precache-manifest.ce1d21105fdb79c461d96735168e464b.js": "/precache-manifest.ce1d21105fdb79c461d96735168e464b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.224294f0.chunk.css.map": "/static/css/2.224294f0.chunk.css.map",
     "static/css/main.1aee269a.chunk.css.map": "/static/css/main.1aee269a.chunk.css.map",
-    "static/js/2.44247b93.chunk.js.LICENSE.txt": "/static/js/2.44247b93.chunk.js.LICENSE.txt",
+    "static/js/2.3347d523.chunk.js.LICENSE.txt": "/static/js/2.3347d523.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/RobotoMono-Medium.7cfbd428.ttf",
     "static/media/azure-app-service.png": "/static/media/azure-app-service.b691e48c.png",
     "static/media/azure-cosmos-db.png": "/static/media/azure-cosmos-db.d37398a2.png",
@@ -23,13 +23,14 @@
     "static/media/portrait.png": "/static/media/portrait.9d53f3e5.png",
     "static/media/racket-logo.png": "/static/media/racket-logo.5274ce48.png",
     "static/media/rhymetime-model.png": "/static/media/rhymetime-model.d00862e0.png",
+    "static/media/text-editor.gif": "/static/media/text-editor.1fb27376.gif",
     "static/media/theadmiral.gif": "/static/media/theadmiral.ce041b7f.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.9089ee33.js",
     "static/css/2.224294f0.chunk.css",
-    "static/js/2.44247b93.chunk.js",
+    "static/js/2.3347d523.chunk.js",
     "static/css/main.1aee269a.chunk.css",
-    "static/js/main.b3837447.chunk.js"
+    "static/js/main.8fed9745.chunk.js"
   ]
 }
