@@ -8,7 +8,7 @@ const projectInfo = [
     logo: require("../assets/images/theadmiral.gif"),
     description: "4-player social deduction/racing game set in a procedurally-generated underwater world",
     technologies: "C#, Unity",
-    githubLink: null,
+    githubLink: "https://github.com/sohumgupta/the-admiral",
     devpostLink: null,
     backgroundColor: "#fab7b7"
   },
