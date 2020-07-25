@@ -8,24 +8,29 @@ import {
     Route
 } from "react-router-dom";
 
+import HomePage from './Pages/HomePage/HomePage';
+import ExperiencePage from './Pages/ExperiencePage/ExperiencePage';
+import ProjectPage from './Pages/ProjectPage/ProjectPage';
+import SkillPage from './Pages/SkillPage/SkillPage';
+
 ReactDOM.render(
     <React.StrictMode>
         <Router>
             <Switch>
                 <Route path="/" exact>
-                    <div>Landing</div>
+                    <HomePage/>
                 </Route>
                 <Route path="/home" exact>
-                    <div>Home</div>
+                    <HomePage/>
                 </Route>
                 <Route path="/experience" exact>
-                    <div>Experience</div>
+                    <ExperiencePage/>
                 </Route>
                 <Route path="/projects" exact>
-                    <div>Projects</div>
+                    <ProjectPage/>
                 </Route>
                 <Route path="/skills" exact>
-                    <div>Skills</div>
+                    <SkillPage/>
                 </Route>
             </Switch>
         </Router>
