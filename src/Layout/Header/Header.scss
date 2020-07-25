@@ -1,0 +1,25 @@
+@import '../../main.scss';
+
+.header-wrapper {
+    width: 100%;
+
+    .header-text {
+        font-family: 'old-english';
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    .nav-buttons-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        .nav-button {
+            padding: 0em 1em;
+        }
+    }
+
+    .horizontal-black-line {
+        border: 1px solid black;
+    }
+}

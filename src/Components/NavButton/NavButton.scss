@@ -1,0 +1,14 @@
+@import '../../main.scss';
+
+.button-wrapper {
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.nav-button-active {
+    text-decoration: underline;
+}
