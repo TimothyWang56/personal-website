@@ -8,7 +8,10 @@ class Page extends React.Component {
     render() {        
         return (
             <div className='page-wrapper'>
-                <Header headerText='TimothyWang'/>
+                <Header
+                    headerText='TimothyWang'
+                    active={this.props.active}
+                />
                 <div className='page-content-wrapper'>
                     {this.props.children}
                 </div>

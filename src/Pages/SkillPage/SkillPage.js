@@ -1,10 +1,16 @@
 import React from 'react';
 import './SkillPage.scss';
 
+import Page from '../../Layout/Page/Page';
+
 class SkillPage extends React.Component {
     render() {
         return (
-            <div>Skill Page</div>
+            <div>
+                <Page active='Skills'>
+                    Skills
+                </Page>
+            </div>
         );
     }
 }

@@ -23,7 +23,7 @@ ReactDOM.render(
                 <Route path="/home" exact>
                     <HomePage/>
                 </Route>
-                <Route path="/experience" exact>
+                <Route path="/experiences" exact>
                     <ExperiencePage/>
                 </Route>
                 <Route path="/projects" exact>

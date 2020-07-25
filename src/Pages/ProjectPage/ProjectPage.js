@@ -1,10 +1,16 @@
 import React from 'react';
 import './ProjectPage.scss';
 
+import Page from '../../Layout/Page/Page';
+
 class ProjectPage extends React.Component {
     render() {
         return (
-            <div>Project Page</div>
+            <div>
+                <Page active='Projects'>
+                    Projects
+                </Page>
+            </div>
         );
     }
 }

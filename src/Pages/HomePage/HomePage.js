@@ -7,8 +7,8 @@ class HomePage extends React.Component {
     render() {
         return (
             <div>
-                <Page>
-                    Hi
+                <Page active='Home'>
+                    Home
                 </Page>
             </div>
         );
