@@ -35,12 +35,15 @@ class Page extends React.Component {
 
     render() {        
         return (
-            <div className='page-wrapper'>
-                <Header
-                    headerText='TimothyWang'
-                    active={this.props.active}
-                    shortened={this.state.shortenedHeader}
-                />
+            <div className='page page-wrapper'>
+                <div className='page-header'>
+                    <Header
+                        headerText='TimothyWang'
+                        active={this.props.active}
+                        shortened={this.state.shortenedHeader}
+                    />
+                </div>
+                
                 <div className='page-content-wrapper'>
                     {this.props.children}
                 </div>

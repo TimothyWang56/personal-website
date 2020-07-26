@@ -6,11 +6,9 @@ import Page from '../../Layout/Page/Page';
 class ProjectPage extends React.Component {
     render() {
         return (
-            <div>
-                <Page active='Projects'>
-                    Projects
-                </Page>
-            </div>
+            <Page active='Projects'>
+                Projects
+            </Page>
         );
     }
 }

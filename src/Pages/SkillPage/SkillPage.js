@@ -6,11 +6,9 @@ import Page from '../../Layout/Page/Page';
 class SkillPage extends React.Component {
     render() {
         return (
-            <div>
-                <Page active='Skills'>
-                    Skills
-                </Page>
-            </div>
+            <Page active='Skills'>
+                Skills
+            </Page>
         );
     }
 }
