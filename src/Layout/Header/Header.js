@@ -2,14 +2,13 @@ import React from 'react';
 import './Header.scss';
 
 import NavButton from '../../Components/NavButton/NavButton';
-import { MdMenu } from 'react-icons/md';
+import Dropdown from '../../Components/Dropdown/Dropdown'
 
 const pages = [
     {name: "Home", navigation: "/home"},
     {name: "Experiences", navigation: "/experiences"},
     {name: "Skills", navigation: "/skills"},
     {name: "Projects", navigation: "/projects"},
-    
 ]
 
 const dayName = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -36,6 +35,10 @@ class Header extends React.Component {
             :
                 null
         );
+    }
+
+    handleMenuClick() {
+
     }
 
     render() {
@@ -71,6 +74,9 @@ class Header extends React.Component {
                             <div className='date-wrapper'>
                                 {formattedDate}
                             </div>,
+                            <div className='right-nav-buttons'>
+                                <Dropdown/>
+                            </div>
                         ]
                 }
                 </div>

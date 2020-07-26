@@ -1,0 +1,16 @@
+@import '../../main.scss';
+
+.dropdown {
+    // padding-right: 0.5em;
+    // line-height: 0em;
+
+    .dropdown-icon {
+        padding-right: 0.5em;
+        line-height: 0em;
+
+        &:hover {
+            cursor: pointer;
+            color: $hover-color;
+        }
+    }
+}
