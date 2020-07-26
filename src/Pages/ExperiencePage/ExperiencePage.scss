@@ -3,6 +3,17 @@
 .experiences-wrapper {
     width: 100%;
     height: 100%;
-    display: grid;
-    grid-template-columns: min-content 1fr;
+    box-sizing: border-box;
+    padding: 1em;
+
+    .experiences-title {
+        line-height: 0em;
+    }
+    
+    .experiences-content {
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        height: 100%;
+    }
+    
 }
