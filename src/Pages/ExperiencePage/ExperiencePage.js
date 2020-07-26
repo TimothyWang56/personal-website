@@ -10,6 +10,7 @@ class ExperiencePage extends React.Component {
             <Page active='Experiences'>
                 <div className='experiences-wrapper'>
                     <Crossword/>
+                    <div>Hello</div>
                 </div>
             </Page>
         );

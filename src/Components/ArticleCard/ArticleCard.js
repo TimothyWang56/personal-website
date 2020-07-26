@@ -29,7 +29,7 @@ class ArticleCard extends React.Component {
                     style={textStyle}
                 >
                     <h1 className='article-title'>About Me</h1>
-                    <hr className='horizontal-card-black-line'/>
+                    <hr className='thin-horz-line'/>
                     {this.props.children}
                 </div>
             </div>

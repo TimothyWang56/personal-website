@@ -30,8 +30,6 @@ class Crossword extends React.Component {
 	}
 
     render() {
-        console.log(window.innerWidth);
-        console.log(window.innerHeight);
         return (
             <div className='crossword-wrapper'>
                 hi

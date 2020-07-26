@@ -45,7 +45,7 @@ class Header extends React.Component {
                 <div className='header-text'>
                     {this.props.headerText}
                 </div>
-                <hr className='horizontal-black-line'/>
+                <hr className='thick-horz-line'/>
                 <div className='bar-wrapper'>
                 {
                     !this.props.shortened ? 
@@ -73,7 +73,7 @@ class Header extends React.Component {
                         ]
                 }
                 </div>
-                <hr className='horizontal-black-line'/>
+                <hr className='thick-horz-line'/>
             </div>
         );
     }
