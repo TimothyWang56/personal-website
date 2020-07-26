@@ -7,15 +7,12 @@ import Dropdown from '../../Components/Dropdown/Dropdown'
 const pages = [
     {name: "Home", navigation: "/home"},
     {name: "Experiences", navigation: "/experiences"},
-    {name: "Skills", navigation: "/skills"},
     {name: "Projects", navigation: "/projects"},
+    {name: "Skills", navigation: "/skills"},
 ]
 
 const dayName = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const shortDayName = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-
 const monthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const shortMonthName = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 class Header extends React.Component {
 
@@ -37,9 +34,9 @@ class Header extends React.Component {
 
     render() {
         const d = new Date();
-        const dayOfWeek = this.props.shortened ? shortDayName[d.getDay()] : dayName[d.getDay()];
+        const dayOfWeek = dayName[d.getDay()];
         const date = d.getDate();
-        const month = this.props.shortened ? shortMonthName[d.getMonth()] : monthName[d.getMonth()];
+        const month = monthName[d.getMonth()];
         const year = d.getFullYear();
         const formattedDate = dayOfWeek.toUpperCase() + ', ' + month.toUpperCase() + ' ' + date + ', ' + year;
 

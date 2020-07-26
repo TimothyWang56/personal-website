@@ -65,16 +65,16 @@ class HomePage extends React.Component {
                         >
                             {aboutMeText}
                             <div className='icon-bar'>
-                                <a href='' target='_blank' className='icon'>
+                                <a href='/home' target='_blank' rel="noopener noreferrer" className='icon'>
                                     <MdDescription size='2.5em' title='resume'/>
                                 </a>
-                                <a href='mailto:timothywang56@gmail.com' target='_blank' className='icon'>
+                                <a href='mailto:timothywang56@gmail.com' target='_blank' rel="noopener noreferrer" className='icon'>
                                     <FaEnvelope size='2.5em' title='email'/>
                                 </a>
-                                <a href='https://linkedin.com/in/timothywang56' target='_blank' className='icon'>
+                                <a href='https://linkedin.com/in/timothywang56' target='_blank' rel="noopener noreferrer" className='icon'>
                                     <FaLinkedin size='2.5em' title='linkedin'/>
                                 </a>
-                                <a href='https://github.com/TimothyWang56' target='_blank' className='icon'>
+                                <a href='https://github.com/TimothyWang56' target='_blank' rel="noopener noreferrer" className='icon'>
                                     <FaGithub size='2.5em' title='github'/>
                                 </a>
                             </div>
