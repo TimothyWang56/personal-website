@@ -9,10 +9,26 @@
         text-align: center;
     }
     
-    .nav-buttons-wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+    .bar-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .left-nav-buttons {
+            grid-column: 1;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .date-wrapper {
+            grid-column: 2;
+            justify-self: center;
+        }
+        
+        .right-nav-buttons {
+            grid-column: 3;
+            display: flex;
+            justify-content: flex-end;
+        }
 
         .nav-button {
             padding: 0em 1em;
