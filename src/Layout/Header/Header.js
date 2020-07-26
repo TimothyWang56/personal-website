@@ -25,20 +25,14 @@ class Header extends React.Component {
         }
 
         return pages.map((page, index) =>
-            index >= startIndex && index <= endIndex ?
-                <div className='nav-button'>
+            index >= startIndex && index <= endIndex &&
+                <div className={'nav-button' + (this.props.shortened ? ' button-in-dropdown' : '')}>
                     <NavButton
                         navigation={page.navigation}
                         buttonText={page.name.toUpperCase()} 
                         active={this.props.active === page.name}/>
                 </div>
-            :
-                null
         );
-    }
-
-    handleMenuClick() {
-
     }
 
     render() {
@@ -75,7 +69,9 @@ class Header extends React.Component {
                                 {formattedDate}
                             </div>,
                             <div className='right-nav-buttons'>
-                                <Dropdown/>
+                                <Dropdown>
+                                    {this.renderNavButtons(0, 3)}
+                                </Dropdown>
                             </div>
                         ]
                 }

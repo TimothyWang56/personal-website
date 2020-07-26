@@ -13,11 +13,18 @@ class Dropdown extends React.Component {
 
     render() {
         return (
-            <div className='dropdown'>
-                <div className='dropdown-icon'>
-                    <MdMenu/>
+            <div className='dropdown-wrapper'>
+                <div className='dropdown'>
+                    <div className='dropdown-icon'>
+                        <MdMenu onClick={() => this.setState({ open: !this.state.open})}/>
+                    </div>
+                    {
+                        this.state.open &&
+                        <div className='dropdown-choices'>
+                            {this.props.children}
+                        </div>
+                    }
                 </div>
-                
             </div>
         )
     }
