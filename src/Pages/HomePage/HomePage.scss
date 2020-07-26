@@ -19,8 +19,8 @@
         padding-right: 0px;
 
         &:hover {
-            color: #3f4141;
             cursor: pointer;
+            color: $hover-color;
         }
     }
 }
