@@ -1,0 +1,47 @@
+@import '../../main.scss';
+
+.article-card-wrapper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .picture-wrapper {
+        .picture {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .article-wrapper {
+        text-align: left;
+        padding-left: 1em;
+
+        .article-title {
+            line-height: 0em;
+        }
+
+        .horizontal-card-black-line {
+            border: 1px solid black;
+        }
+
+        .article-text {
+            font-size: 1.2em;
+        }
+        .article-wrapper {
+            grid-column: 1 / span 2;
+        }
+    }
+
+    .no-image {
+        grid-column: 1 / span 2;
+        padding-left: 0em;
+    }
+}
+
+.no-image {
+    .article-card-wrapper .article-wrapper {
+        grid-column: 1 / span 2;
+    }
+}
