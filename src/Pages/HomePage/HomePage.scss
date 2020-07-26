@@ -1,5 +1,26 @@
 @import '../../main.scss';
 
-.about-me-card {
-    width: 100%;
+.home-wrapper {
+    display: flex;
+    margin: 2em;
+    flex-direction: column;
+    align-items: center;
+
+    .icon-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 1em;
+    }
+    
+    .icon {
+        color: black;
+        padding-left: 0px;
+        padding-right: 0px;
+
+        &:hover {
+            color: #3f4141;
+            cursor: pointer;
+        }
+    }
 }
