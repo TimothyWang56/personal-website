@@ -7,7 +7,7 @@ class ProjectPage extends React.Component {
     render() {
         return (
             <Page active='Projects'>
-                Projects
+                Coming soon!
             </Page>
         );
     }

@@ -70,7 +70,7 @@ class HomePage extends React.Component {
                         >
                             {aboutMeText}
                             <div className='icon-bar'>
-                                <a href='/home' target='_blank' rel="noopener noreferrer" className='icon'>
+                                <a href={require('../../Assets/Images/Timothy_Wang_Resume.pdf')} target='_blank' rel="noopener noreferrer" className='icon'>
                                     <MdDescription size='2.5em' title='resume'/>
                                 </a>
                                 <a href='mailto:timothywang56@gmail.com' target='_blank' rel="noopener noreferrer" className='icon'>

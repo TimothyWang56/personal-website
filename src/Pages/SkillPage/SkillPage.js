@@ -7,7 +7,7 @@ class SkillPage extends React.Component {
     render() {
         return (
             <Page active='Skills'>
-                Skills
+                Coming soon!
             </Page>
         );
     }
