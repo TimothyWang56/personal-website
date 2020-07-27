@@ -2,9 +2,9 @@
 
 .home-wrapper {
     display: flex;
-    padding: 1em;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
 
     .icon-bar {
         display: flex;

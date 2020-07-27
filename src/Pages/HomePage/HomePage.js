@@ -55,9 +55,14 @@ class HomePage extends React.Component {
             { 'width': '80%' } :
             { 'width': '95%' }
 
+        const headerHeight = '15vh';
+        const pagePadding = {
+            padding: '2vh'
+        }
+
         return (
-            <Page active='Home'>
-                <div className='home-wrapper'>
+            <Page active='Home' headerHeight={headerHeight}>
+                <div className='home-wrapper disable-scrollbar' style={pagePadding}>
                     <div style={cardStyle}>
                         <ArticleCard
                             image={require('../../Assets/Images/portrait.png')}
@@ -79,7 +84,6 @@ class HomePage extends React.Component {
                                 </a>
                             </div>
                         </ArticleCard>
-
                     </div>
                 </div>
             </Page>
