@@ -9,8 +9,10 @@ class ExperiencePage extends React.Component {
         return (
             <Page active='Experiences'>
                 <div className='experiences-wrapper'>
-                    <h1 className='experiences-title'>Experiences</h1>
-                    <hr className='thin-horz-line'/>
+                    <div>
+                        <h1 className='experiences-title'>Experiences</h1>
+                        <hr className='thin-horz-line'/>
+                    </div>
                     <div className='experiences-content'>
                         <Crossword/>
                         <div>Hello</div>

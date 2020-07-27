@@ -15,9 +15,13 @@ body, html, .page {
 }
 
 .thin-horz-line {
-    border: 1px solid black;
+    border-top: 1.5px solid black;
+    width: 100%;
+    line-height: 0em;
 }
 
 .thick-horz-line {
-    border: 1.5px solid black;
+    border-top: 2.5px solid black;
+    width: 100%;
+    line-height: 0em;
 }

@@ -5,6 +5,8 @@
     height: 100%;
     box-sizing: border-box;
     padding: 1em;
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
 
     .experiences-title {
         line-height: 0em;
@@ -13,7 +15,5 @@
     .experiences-content {
         display: grid;
         grid-template-columns: min-content 1fr;
-        height: 100%;
     }
-    
 }
