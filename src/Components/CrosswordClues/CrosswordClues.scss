@@ -20,9 +20,11 @@
             position: relative;
             margin-bottom: 1em;
             padding: 0.5em;
+            border-radius: 1em;
 
             &:hover {
                 cursor: pointer;
+                background-color: $light-hover-color;
             }
 
             .clue-number {
@@ -42,8 +44,7 @@
         }
 
         .active {
-            border-radius: 1em;
-            background-color: gray;
+            background-color: $light-hover-color;
         }
     }
 }

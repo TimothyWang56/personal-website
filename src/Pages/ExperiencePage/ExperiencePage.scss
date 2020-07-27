@@ -15,5 +15,8 @@
         display: grid;
         height: 100%;
         grid-template-columns: min-content 1fr;
+        * {
+            transition: all .25s ease;
+        }
     }
 }
