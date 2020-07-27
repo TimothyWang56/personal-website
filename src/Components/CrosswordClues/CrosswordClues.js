@@ -3,11 +3,19 @@ import './CrosswordClues.scss'
 
 class CrosswordClues extends React.Component {
     renderClues() {
-        return this.props.clues.map(clue => {
+        return this.props.clues.map((clue, index) => {
+            const handleClick = () => {
+                this.props.clueRefs[index].current.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start',
+                });
+            }
+
             return (
                 <div
+                    ref={this.props.clueRefs[index]}
                     className={'clue' + (this.props.activeClue === clue.num ? ' active' : '')}
-                    onClick={() => this.props.onClick(clue.num, clue.row)}
+                    onClick={() => {this.props.onClick(clue.num, clue.row); handleClick();}}
                 >
                     <div className='clue-number'>{clue.num}</div>
                     <div className='clue-dates'>{clue.dates}</div>

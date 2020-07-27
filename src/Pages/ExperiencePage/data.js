@@ -33,7 +33,7 @@ const taText =
     "I was an undergraduate teaching assistant for both the Fall (CSCI0170) and Spring (CSCI0180) semesters of my sophomore year. " +
     "For both semesters, I was working on the homeworks teams, which meant I was responsible for editing and testing homework assignments " +
     "before releasing them, as well as grading and reviewing them. " +
-    "Additionally, I volunteered to take on the responsibilities of checking for plagiarism using Stanford\'s MOSS API. " +
+    "Additionally, I volunteered to take on the responsibilities of checking for plagiarism using Stanford's MOSS API. " +
     "CSCI0170 was taught in Racket and ReasonML, and CSCI0180 was taught in Java and Scala."
 
 export const clues = [
@@ -62,7 +62,7 @@ export const clues = [
         num: 4,
         row: true,
         dates: 'Aug 2019 - May 2020',
-        title: 'Full-Stack Software Engineering Intern',
+        title: 'Teaching Assistant',
         text: taText,
     }
 ]

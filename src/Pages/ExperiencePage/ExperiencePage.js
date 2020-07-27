@@ -10,12 +10,39 @@ class ExperiencePage extends React.Component {
     constructor(props) {
         super(props);
 
+        const refs = clues.map(clue => {
+            return React.createRef();
+        })
+
         this.state = {
             activeClue: 1,
             row: true,
             crossword,
             clues,
+            horizontalOrientation: true,
+            clueRefs: refs,
         }
+
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    }
+
+    componentDidMount() {
+		this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+	}
+	
+	componentWillUnmount() {
+		window.removeEventListener('resize', this.updateWindowDimensions);
+	}
+	
+	updateWindowDimensions() {
+        let horizontalOrientation = true;
+
+        if (window.innerWidth/window.innerHeight < 1) {
+            horizontalOrientation = false;
+        }
+
+        this.setState({ horizontalOrientation });
     }
 
     findClueNumByRow(rowIndex, colIndex) {
@@ -71,10 +98,18 @@ class ExperiencePage extends React.Component {
                 activeClue: rowClue,
                 row: true
             })
+            this.state.clueRefs[rowClue - 1].current.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            })
         } else if (colClue !== -1) {
             this.setState({
                 activeClue: colClue,
                 row: false
+            })
+            this.state.clueRefs[colClue - 1].current.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
             })
         }
     }
@@ -94,30 +129,47 @@ class ExperiencePage extends React.Component {
             fontSize: '2vh'
         }
 
-        const pagePadding = {
+        const pageContentStyle = {
             padding: '2vh'
         }
 
+        const experiencesContentStyle = {};
+
+        if (this.state.horizontalOrientation) {
+            experiencesContentStyle['gridTemplateColumns'] = 'min-content 1fr';
+        } else {
+            experiencesContentStyle['gridTemplateRows'] = 'min-content 1fr';
+        }
+
+        const crosswordSize = this.state.horizontalOrientation ?
+            'calc(100vh - ' + headerHeight + ' - ' + titleStyle.height + ' - (' + pageContentStyle.padding + ' * 2))' :
+            'calc(100vw - (' + pageContentStyle.padding + ' * 2))';
+
+        const cluesHeight = this.state.horizontalOrientation ?
+            'calc(100vh - ' + headerHeight + ' - ' + titleStyle.height + ' - (' + pageContentStyle.padding + ' * 2))' :
+            '100%'
+
         return (
             <Page active='Experiences' headerHeight={headerHeight}>
-                <div className='experiences-wrapper' style={pagePadding}>
+                <div className='experiences-wrapper' style={pageContentStyle}>
                     <div style={titleStyle}>
                         <h1 className='experiences-title'>Experiences</h1>
                         <hr className='thin-horz-line'/>
                     </div>
-                    <div className='experiences-content'>
+                    <div className='experiences-content' style={experiencesContentStyle}>
                         <Crossword
                             activeClue={this.state.activeClue}
                             row={this.state.row}
                             crossword={this.state.crossword}
                             onSquareClick={this.onSquareClick.bind(this)}
-                            size={'calc(100vh - ' + headerHeight + ' - ' + titleStyle.height + ' - (' + pagePadding.padding + ' * 2))'}
+                            size={crosswordSize}
                         />
                         <CrosswordClues
-                            height={'calc(100vh - ' + headerHeight + ' - ' + titleStyle.height + ' - (' + pagePadding.padding + ' * 2))'}
+                            height={cluesHeight}
                             activeClue={this.state.activeClue}
                             onClick={this.onClueClick.bind(this)}
                             clues={this.state.clues}
+                            clueRefs={this.state.clueRefs}
                         />
                     </div>
                 </div>
