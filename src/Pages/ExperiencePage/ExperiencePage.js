@@ -129,6 +129,8 @@ class ExperiencePage extends React.Component {
             fontSize: '2vh'
         }
 
+        !this.state.horizontalOrientation && (titleStyle['textAlign'] = 'center');
+
         const pageContentStyle = {
             padding: '2vh'
         }
@@ -153,7 +155,7 @@ class ExperiencePage extends React.Component {
             <Page active='Experiences' headerHeight={headerHeight}>
                 <div className='experiences-wrapper' style={pageContentStyle}>
                     <div style={titleStyle}>
-                        <h1 className='experiences-title'>Experiences</h1>
+                        <h1 className='experiences-title'>Experiences Crossword</h1>
                         <hr className='thin-horz-line'/>
                     </div>
                     <div className='experiences-content' style={experiencesContentStyle}>
@@ -170,6 +172,7 @@ class ExperiencePage extends React.Component {
                             onClick={this.onClueClick.bind(this)}
                             clues={this.state.clues}
                             clueRefs={this.state.clueRefs}
+                            horizontalOrientation={this.state.horizontalOrientation}
                         />
                     </div>
                 </div>

@@ -52,12 +52,12 @@ class HomePage extends React.Component {
 
     render() {
         const cardStyle = this.state.horizontalOrientation ?
-            { 'width': '80%' } :
+            { 'width': '75%' } :
             { 'width': '95%' }
 
         const headerHeight = '15vh';
         const pagePadding = {
-            padding: '2vh'
+            padding: '5vh'
         }
 
         return (

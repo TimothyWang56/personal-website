@@ -12,8 +12,14 @@ class ArticleCard extends React.Component {
             { 'width': '70%', 'height': 'auto', 'paddingBottom': '2em' }
 
         const textStyle = this.props.horizontalOrientation ?
-            { 'paddingLeft': '1em', 'fontSize': '1.4vw' } :
-            { 'paddingLeft': '0em', 'fontSize': '1em' }
+            { 'paddingLeft': '1em', 'fontSize': 'calc(min(1.3vw, 1.4em))' } :
+            { 'paddingLeft': '0em', 'fontSize': '1.2em' }
+
+        const articleTitleStyle = this.props.horizontalOrientation ? {
+            'textAlign': 'left'
+        } : {
+            'textAlign': 'center'
+        }
 
         return (
             <div className='article-card-wrapper' style={style}>
@@ -28,7 +34,7 @@ class ArticleCard extends React.Component {
                     className={'article-wrapper' + (this.props.image ? '' : ' no-image')}
                     style={textStyle}
                 >
-                    <h1 className='article-title'>About Me</h1>
+                    <h1 className='article-title' style={articleTitleStyle}>About Me</h1>
                     <hr className='thin-horz-line'/>
                     {this.props.children}
                 </div>

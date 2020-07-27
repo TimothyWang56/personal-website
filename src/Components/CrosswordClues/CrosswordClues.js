@@ -4,6 +4,12 @@ import './CrosswordClues.scss'
 class CrosswordClues extends React.Component {
     renderClues() {
         return this.props.clues.map((clue, index) => {
+            const fontStyle = this.props.horizontalOrientation ? {
+                'fontSize': 'calc(min(1.3vw, 1.4em))'
+            } : {
+                'fontSize': '1.2em'
+            }
+
             const handleClick = () => {
                 this.props.clueRefs[index].current.scrollIntoView({
                     behavior: 'smooth',
@@ -15,6 +21,7 @@ class CrosswordClues extends React.Component {
                 <div
                     ref={this.props.clueRefs[index]}
                     className={'clue' + (this.props.activeClue === clue.num ? ' active' : '')}
+                    style={fontStyle}
                     onClick={() => {this.props.onClick(clue.num, clue.row); handleClick();}}
                 >
                     <div className='clue-number'>{clue.num}</div>
