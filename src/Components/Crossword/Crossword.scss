@@ -8,6 +8,10 @@
     align-items: center;
     justify-content: center;
 
+    * {
+        transition: all 0.25s ease;
+    }
+
     .crossword-row {
         display: flex;
         width: 100%;
