@@ -33,7 +33,7 @@ class Page extends React.Component {
         this.setState({ shortenedHeader });
 	}
 
-    render() {        
+    render() {
         return (
             <div className='page page-wrapper'>
                 <div className='page-header'>
@@ -41,6 +41,7 @@ class Page extends React.Component {
                         headerText='TimothyWang'
                         active={this.props.active}
                         shortened={this.state.shortenedHeader}
+                        height={this.props.headerHeight}
                     />
                 </div>
                 
@@ -50,6 +51,10 @@ class Page extends React.Component {
             </div>
         );
     }
+}
+
+Page.defaultProps = {
+    headerHeight: '15vh'
 }
 
 export default Page;

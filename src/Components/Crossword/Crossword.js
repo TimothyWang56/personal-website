@@ -7,7 +7,8 @@ class Crossword extends React.Component {
 
         this.state = {
             width: window.innerWidth,
-            height: window.innerHeight
+            height: window.innerHeight,
+            squareLength: Math.max(this.props.crossword.length, this.props.crossword[0].length),
         }
 
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
@@ -35,13 +36,19 @@ class Crossword extends React.Component {
         let wordFound = false;
         let wordDone = false;
 
+        const rowStyle = {
+            'height': 'calc(100% / ' + this.state.squareLength + ')'
+        }
+
         return this.props.crossword.map((row, rowIndex) => {
             return (
-                <div className='crossword-row'>
+                <div className='crossword-row' style={rowStyle}>
                     {row.map((square, colIndex) => {
                         const border = '0.5px solid black'
 
                         const squareStyle = {
+                            'width': 'calc(100% / ' + this.state.squareLength + ')',
+                            'height': '100%',
                             'border': square.contents !== ',' ? border : 'none',
                             'outline': square.contents !== ',' ? border : 'none',
                         }
@@ -80,7 +87,7 @@ class Crossword extends React.Component {
                         }
 
                         return (
-                            <div className='crossword-square' style={squareStyle}>
+                            <div className='crossword-square' style={squareStyle} onClick={() => this.props.onSquareClick(rowIndex, colIndex)}>
                                 {square.num && <div className='corner-number'>{square.num}</div>}
                                 {square.contents !== ',' && <div className='square-content'>{square.contents}</div>}
                             </div>
@@ -92,8 +99,13 @@ class Crossword extends React.Component {
     }
 
     render() {
+        const crosswordStyle = {
+            height: this.props.size,
+            width: this.props.size,
+        }
+
         return (
-            <div className='crossword-wrapper'>
+            <div className='crossword-wrapper' style={crosswordStyle}>
                 {this.renderCrossword()}
             </div>
         );
@@ -101,8 +113,8 @@ class Crossword extends React.Component {
 }
 
 Crossword.defaultProps = {
-    activeClue: 3,
-    row: false,
+    activeClue: 1,
+    row: true,
     crossword: [
         [{ contents: ','}, { contents: 'B', num: 2 }, { contents: ','}, { contents: ','}, { contents: ','}, { contents: ','}, { contents: ','}, { contents: ','}, { contents: ','}, { contents: ','}, { contents: ','}],
         [{ contents: 'C', num: 1 }, { contents: 'R' }, { contents: 'E' }, { contents: 'S' }, { contents: 'S', num: 3 }, { contents: 'H' }, { contents: 'E' }, { contents: 'A' }, { contents: 'L' }, { contents: 'T' }, { contents: 'H' }],

@@ -40,8 +40,12 @@ class Header extends React.Component {
         const year = d.getFullYear();
         const formattedDate = dayOfWeek.toUpperCase() + ', ' + month.toUpperCase() + ' ' + date + ', ' + year;
 
+        const headerHeight = {
+            'height': this.props.height
+        }
+
         return (
-            <div className='header-wrapper'>
+            <div className='header-wrapper' style={headerHeight}>
                 <div className='header-text'>
                     {this.props.headerText}
                 </div>
@@ -77,6 +81,10 @@ class Header extends React.Component {
             </div>
         );
     }
+}
+
+Header.defaultProps = {
+    height: '15vh',
 }
 
 export default Header;

@@ -1,13 +1,18 @@
 @import '../../main.scss';
 
 .crossword-wrapper {
+    box-sizing: border-box;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     .crossword-row {
         display: flex;
+        width: 100%;
 
         .crossword-square {
-            height: 2.3em;
-            width: 2.3em;
             position: relative;
             box-sizing: border-box;
 
@@ -17,12 +22,12 @@
 
             .corner-number {
                 position: absolute;
-                font-size: 0.5em;
+                font-size: 1.5vh;
             }
 
             .square-content {
                 position: absolute;
-                font-size: 1.8em;
+                font-size: 4vh;
                 left: 50%;
                 top: 50%;
                 transform: translateX(-50%) translateY(-50%);
