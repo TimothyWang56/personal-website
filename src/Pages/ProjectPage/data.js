@@ -26,7 +26,7 @@ export const projects = [
     {
         title: 'Rubik\'s Cube',
         className: 'cube',
-        defaultHorizontal: true,
+        defaultHorizontal: false,
         image: require('../../Assets/Images/cube.gif'),
         text:
             "I've been solving Rubik's cubes since the 3rd grade, so I thought I'd try creating a 3-D simulator for one! " +
@@ -36,7 +36,7 @@ export const projects = [
     {
         title: 'Rhyme Time',
         className: 'rhyme-time',
-        defaultHorizontal: true,
+        defaultHorizontal: false,
         image: require('../../Assets/Images/rhymetime-model.png'),
         text:
             "Rhyme Time was my final project for my Deep Learning course. My team of 4 students created " +
