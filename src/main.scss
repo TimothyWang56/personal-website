@@ -18,6 +18,7 @@ $light-hover-color: rgb(216, 216, 216);
 
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* IE 10+ */
+    -webkit-overflow-scrolling: touch;
     &::-webkit-scrollbar {
         width: 0px;
         background: transparent; /* Chrome/Safari/Webkit */
