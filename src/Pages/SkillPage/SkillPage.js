@@ -71,18 +71,6 @@ const backendIcons = [
         icon: require('../../Assets/Icons/azure.png'),
         text: 'Azure'
     },
-    {
-        icon: require('../../Assets/Icons/azure-app-service.png'),
-        text: 'Azure App Service'
-    },
-    {
-        icon: require('../../Assets/Icons/azure-service-bus.png'),
-        text: 'Azure Service Bus'
-    },
-    {
-        icon: require('../../Assets/Icons/azure-cosmos-db.png'),
-        text: 'Azure Cosmos DB'
-    },
 ]
 
 class SkillPage extends React.Component {
