@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cef70a38.chunk.css",
+    "main.css": "/static/css/main.b3994b70.chunk.css",
     "main.js": "/static/js/main.443fdf58.chunk.js",
     "main.js.map": "/static/js/main.443fdf58.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9089ee33.js",
@@ -8,9 +8,9 @@
     "static/js/2.cee180ed.chunk.js": "/static/js/2.cee180ed.chunk.js",
     "static/js/2.cee180ed.chunk.js.map": "/static/js/2.cee180ed.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b437e59446ab68aeb84d3575ee586633.js": "/precache-manifest.b437e59446ab68aeb84d3575ee586633.js",
+    "precache-manifest.120fdc2e946c8a11132150d1645c6ff3.js": "/precache-manifest.120fdc2e946c8a11132150d1645c6ff3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.cef70a38.chunk.css.map": "/static/css/main.cef70a38.chunk.css.map",
+    "static/css/main.b3994b70.chunk.css.map": "/static/css/main.b3994b70.chunk.css.map",
     "static/js/2.cee180ed.chunk.js.LICENSE.txt": "/static/js/2.cee180ed.chunk.js.LICENSE.txt",
     "static/media/CrosswordClues.scss": "/static/media/OldEnglishFive.10855bd3.ttf",
     "static/media/Timothy_Wang_Resume.pdf": "/static/media/Timothy_Wang_Resume.ac452317.pdf",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.9089ee33.js",
     "static/js/2.cee180ed.chunk.js",
-    "static/css/main.cef70a38.chunk.css",
+    "static/css/main.b3994b70.chunk.css",
     "static/js/main.443fdf58.chunk.js"
   ]
 }
