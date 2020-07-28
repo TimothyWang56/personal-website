@@ -28,11 +28,13 @@ export const projects = [
     {
         title: 'Rhyme Time',
         image: require('../../Assets/Images/rhymetime-model.png'),
-        text: 'Rhyme Time description.'
+        text:
+            "Rhyme Time was my final project for my Deep Learning course. My team of 4 students created " +
+            "a LSTM neural network that generates Limerick poems using Tensorflow."
     },
     {
         title: 'Text Editor',
         image: require('../../Assets/Images/text-editor.gif'),
-        text: 'Text Editor description.'
+        text: "I created a text editor in Java using the Swing toolkit. It supports functionality for loading, saving, and finding based on text or regex expressions."
     },   
 ]
