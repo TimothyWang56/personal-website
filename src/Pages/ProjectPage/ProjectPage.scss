@@ -1,0 +1,10 @@
+@import '../../main.scss';
+
+.projects-wrapper {
+    width: 100%;
+    overflow-y: scroll;
+
+    .project-wrapper {
+        padding-bottom: 1em;
+    }
+}

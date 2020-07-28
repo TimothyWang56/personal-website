@@ -65,6 +65,7 @@ class HomePage extends React.Component {
                 <div className='home-wrapper disable-scrollbar' style={pagePadding}>
                     <div style={cardStyle}>
                         <ArticleCard
+                            title='About Me'
                             image={require('../../Assets/Images/portrait.png')}
                             horizontalOrientation={this.state.horizontalOrientation}
                         >

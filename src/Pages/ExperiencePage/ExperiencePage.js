@@ -128,7 +128,6 @@ class ExperiencePage extends React.Component {
             'height': '8vh',
             'fontSize': this.state.horizontalOrientation ? 'calc(min(1.3vw, 1.4em))' : '1.2em',
             'textAlign': !this.state.horizontalOrientation ? 'center' : 'left'
-
         }
 
         const pageContentStyle = {

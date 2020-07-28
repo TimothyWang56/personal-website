@@ -34,7 +34,7 @@ class ArticleCard extends React.Component {
                     className={'article-wrapper' + (this.props.image ? '' : ' no-image')}
                     style={textStyle}
                 >
-                    <h1 className='article-title' style={articleTitleStyle}>About Me</h1>
+                    <h1 className='article-title' style={articleTitleStyle}>{this.props.title}</h1>
                     <hr className='thin-horz-line'/>
                     {this.props.children}
                 </div>
