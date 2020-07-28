@@ -1,7 +1,6 @@
 @import '../../main.scss';
 
 .article-card-wrapper {
-    width: 100%;
     height: 100%;
     display: grid;
 
@@ -14,10 +13,6 @@
 
         .article-title {
             margin: 0em;
-        }
-
-        .article-wrapper {
-            grid-column: 1 / span 2;
         }
     }
 

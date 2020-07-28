@@ -68,6 +68,7 @@ class HomePage extends React.Component {
                             title='About Me'
                             image={require('../../Assets/Images/portrait.png')}
                             horizontalOrientation={this.state.horizontalOrientation}
+                            resizingFont={true}
                         >
                             {aboutMeText}
                             <div className='icon-bar'>

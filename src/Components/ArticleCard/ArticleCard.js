@@ -12,8 +12,8 @@ class ArticleCard extends React.Component {
             { 'width': '70%', 'height': 'auto', 'paddingBottom': '2em' }
 
         const textStyle = this.props.horizontalOrientation ?
-            { 'paddingLeft': '1em', 'fontSize': 'calc(min(1.3vw, 1.4em))' } :
-            { 'paddingLeft': '0em', 'fontSize': '1.2em' }
+            { 'paddingLeft': '1em', 'fontSize': this.props.resizingFont ? 'calc(min(1.3vw, 1.4em))' : '1.2em' } :
+            { 'paddingLeft': '0em', 'fontSize': this.props.resizingFont ? 'calc(min(1.3vw, 1.4em))' : '1.2em' }
 
         const articleTitleStyle = {
             'textAlign': this.props.horizontalOrientation ? 'left' : 'center'

@@ -3,11 +3,28 @@
 .projects-page-content-wrapper {
     width: 100%;
     padding: 5vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-    .project-wrapper {
-        padding-bottom: 1em;
+    .admiral {
+        grid-column: 1 / span 3;
+    }
+
+    .two-cents {
+        grid-row: 2 / span 3;
+        grid-column: 1;
+    }
+
+    .cube {
+        grid-row: 2;
+        grid-column: 2 / span 2;
+    }
+
+    .rhyme-time {
+        grid-row: 3;
+        grid-column: 2 / span 2;
+    }
+
+    .text-editor {
+        grid-row: 4;
+        grid-column: 2 / span 2;
     }
 }
