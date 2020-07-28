@@ -6,9 +6,15 @@ $light-hover-color: rgb(216, 216, 216);
     src: url('./Assets/Fonts/OldEnglishFive.ttf');
 }
 
+@font-face {
+    font-family: 'lora-semi-bold';
+    src: url('./Assets/Fonts/Lora-SemiBold.ttf');
+}
+
 * {
     box-sizing: border-box;
     transition: all .25s ease;
+    font-family: Georgia;
 }
 
 body, html, .page {
@@ -19,6 +25,10 @@ body, html, .page {
     margin: 0em;
     padding: 0em;
     overflow-x: hidden;
+}
+
+.title {
+    font-family: 'lora-semi-bold';
 }
 
 .thin-horz-line {

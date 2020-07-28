@@ -154,7 +154,7 @@ class ExperiencePage extends React.Component {
             <Page active='Experiences' headerHeight={headerHeight}>
                 <div className='experiences-wrapper' style={pageContentStyle}>
                     <div style={titleStyle}>
-                        <h1 className='experiences-title'>Crossword</h1>
+                        <h1 className='experiences-title title'>Crossword</h1>
                         <hr className='thin-horz-line'/>
                     </div>
                     <div className='experiences-content' style={experiencesContentStyle}>
