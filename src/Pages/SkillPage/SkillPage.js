@@ -136,12 +136,12 @@ class SkillPage extends React.Component {
                     >
                         <div style={skillsContentStyle}>
                             <div className='skill-section'>
-                                <div className='skills-header'>Languages:</div>
+                                <div>Languages:</div>
                                 {this.renderIcons(languageIcons)}
                             </div>
-                            <div className='skills-header'>Frontend:</div>
+                            <div>Frontend:</div>
                             {this.renderIcons(frontendIcons)}
-                            <div className='skills-header'>Backend:</div>
+                            <div>Backend:</div>
                             {this.renderIcons(backendIcons)}
                         </div>
                     </ArticleCard>
