@@ -3,6 +3,10 @@
 .projects-page-content-wrapper {
     width: 100%;
     padding: 5vh;
+    
+    * {
+        transition: none;
+    }
 
     .admiral {
         grid-column: 1 / span 3;
