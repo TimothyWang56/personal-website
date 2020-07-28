@@ -6,6 +6,9 @@
     display: grid;
     grid-template-rows: min-content 1fr;
     align-content: start;
+    
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 
     .page-header {
         grid-row: 1;
