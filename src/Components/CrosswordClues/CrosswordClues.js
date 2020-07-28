@@ -35,7 +35,7 @@ class CrosswordClues extends React.Component {
 
     render() {
         return (
-            <div className='crossword-clues-wrapper disable-scrollbar' style={{ height: this.props.height }}>
+            <div className='crossword-clues-wrapper' style={{ height: this.props.height }}>
                 <h2 className='clues-title'>
                     Clues
                 </h2>

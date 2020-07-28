@@ -62,13 +62,13 @@ class HomePage extends React.Component {
 
         return (
             <Page active='Home' headerHeight={headerHeight}>
-                <div className='home-wrapper disable-scrollbar' style={pagePadding}>
+                <div className='home-wrapper' style={pagePadding}>
                     <div style={cardStyle}>
                         <ArticleCard
                             title='About Me'
                             image={require('../../Assets/Images/portrait.png')}
                             horizontalOrientation={this.state.horizontalOrientation}
-                            resizingFont={true}
+                            resizingFont={this.state.horizontalOrientation}
                         >
                             {aboutMeText}
                             <div className='icon-bar'>

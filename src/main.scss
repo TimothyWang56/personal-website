@@ -15,6 +15,13 @@ $light-hover-color: rgb(216, 216, 216);
     box-sizing: border-box;
     transition: all .25s ease;
     font-family: Georgia;
+
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+    &::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* Chrome/Safari/Webkit */
+    }
 }
 
 body, html, .page {
@@ -41,13 +48,4 @@ body, html, .page {
     border-top: 2.5px solid black;
     width: 100%;
     line-height: 0em;
-}
-
-.disable-scrollbar {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* IE 10+ */
-    &::-webkit-scrollbar {
-        width: 0px;
-        background: transparent; /* Chrome/Safari/Webkit */
-    }
 }
