@@ -37,10 +37,12 @@ class ProjectPage extends React.Component {
 
     renderProjects() {
             const projectStyle = this.state.horizontalOrientation ? {
+                
                 'padding': '1em',
                 'outline': '2px solid black',
                 'border': '2px solid black',
             } : {
+                
                 'paddingBottom': '1em'
             }
 
