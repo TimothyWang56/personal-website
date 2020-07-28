@@ -30,11 +30,13 @@ export const projects = [
         image: require('../../Assets/Images/rhymetime-model.png'),
         text:
             "Rhyme Time was my final project for my Deep Learning course. My team of 4 students created " +
-            "a LSTM neural network that generates Limerick poems using Tensorflow."
+            "a LSTM neural network that generates Limerick poems using TensorFlow. It was trained on 75,000 limerick poems and " +
+            "had a perplexity of ~4.1 after 15 epochs."
     },
     {
         title: 'Text Editor',
         image: require('../../Assets/Images/text-editor.gif'),
-        text: "I created a text editor in Java using the Swing toolkit. It supports functionality for loading, saving, and finding based on text or regex expressions."
+        text: "I created a text editor in Java using the Swing toolkit. " +
+        "It supports functionality for loading, saving, and finding based on text or regex expressions."
     },   
 ]
