@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7640aa4c8da0e1ef8db5ac192278796e",
+    "revision": "2363b1a757eceb646b725e55ec8ca78f",
     "url": "/index.html"
   },
   {
-    "revision": "970e4567410b1c17f3e5",
-    "url": "/static/css/main.a97ceff3.chunk.css"
+    "revision": "82c8237d632e958002f0",
+    "url": "/static/css/main.dff2d173.chunk.css"
   },
   {
     "revision": "5175f56772bad759f6b3",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1babf883.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "970e4567410b1c17f3e5",
-    "url": "/static/js/main.c6ceeb5b.chunk.js"
+    "revision": "82c8237d632e958002f0",
+    "url": "/static/js/main.1faba1c3.chunk.js"
   },
   {
     "revision": "0b4f3269348c2e5315e5",
     "url": "/static/js/runtime-main.9089ee33.js"
+  },
+  {
+    "revision": "6c384a752b937ec93378fe87c2494234",
+    "url": "/static/media/Lora-SemiBold.6c384a75.ttf"
   },
   {
     "revision": "10855bd3671eb9808ce923454510349a",
