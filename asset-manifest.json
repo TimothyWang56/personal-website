@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.dff2d173.chunk.css",
-    "main.js": "/static/js/main.1faba1c3.chunk.js",
-    "main.js.map": "/static/js/main.1faba1c3.chunk.js.map",
+    "main.css": "/static/css/main.95b4d1f6.chunk.css",
+    "main.js": "/static/js/main.077b6cd9.chunk.js",
+    "main.js.map": "/static/js/main.077b6cd9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9089ee33.js",
     "runtime-main.js.map": "/static/js/runtime-main.9089ee33.js.map",
     "static/js/2.1babf883.chunk.js": "/static/js/2.1babf883.chunk.js",
     "static/js/2.1babf883.chunk.js.map": "/static/js/2.1babf883.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2f4e571d475f1fa5f2344d8b7653f5e6.js": "/precache-manifest.2f4e571d475f1fa5f2344d8b7653f5e6.js",
+    "precache-manifest.26688007a30bd60ffeca664f1972d772.js": "/precache-manifest.26688007a30bd60ffeca664f1972d772.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.dff2d173.chunk.css.map": "/static/css/main.dff2d173.chunk.css.map",
+    "static/css/main.95b4d1f6.chunk.css.map": "/static/css/main.95b4d1f6.chunk.css.map",
     "static/js/2.1babf883.chunk.js.LICENSE.txt": "/static/js/2.1babf883.chunk.js.LICENSE.txt",
     "static/media/ProjectPage.scss": "/static/media/OldEnglishFive.10855bd3.ttf",
     "static/media/Timothy_Wang_Resume.pdf": "/static/media/Timothy_Wang_Resume.ac452317.pdf",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.9089ee33.js",
     "static/js/2.1babf883.chunk.js",
-    "static/css/main.dff2d173.chunk.css",
-    "static/js/main.1faba1c3.chunk.js"
+    "static/css/main.95b4d1f6.chunk.css",
+    "static/js/main.077b6cd9.chunk.js"
   ]
 }
