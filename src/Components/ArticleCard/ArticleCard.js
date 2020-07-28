@@ -11,7 +11,7 @@ class ArticleCard extends React.Component {
             { 'width': '25vw', 'height': 'auto'} :
             { 'width': '70%', 'height': 'auto', 'paddingBottom': '2em' }
 
-        const textStyle = this.props.horizontalOrientation ?
+        const textStyle = this.props.horizontalOrientation && this.props.image ?
             { 'paddingLeft': '1em', 'fontSize': this.props.resizingFont ? 'calc(min(1.3vw, 1.4em))' : '1.2em' } :
             { 'paddingLeft': '0em', 'fontSize': this.props.resizingFont ? 'calc(min(1.3vw, 1.4em))' : '1.2em' }
 
