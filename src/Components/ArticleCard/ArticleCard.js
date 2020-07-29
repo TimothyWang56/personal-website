@@ -4,11 +4,11 @@ import './ArticleCard.scss';
 class ArticleCard extends React.Component {
     render() {
         const style = this.props.horizontalOrientation ?
-            { 'gridTemplateColumns': '1fr 3fr' } :
+            { 'gridTemplateColumns': 'min-content 1fr' } :
             { 'gridTemplateRows': 'auto' }
 
         const portraitStyle = this.props.horizontalOrientation ?
-            { 'width': '25vw', 'height': 'auto'} :
+            { 'width': '23vw', 'height': 'auto'} :
             { 'width': '70%', 'height': 'auto', 'paddingBottom': '2em' }
 
         const textStyle = this.props.horizontalOrientation && this.props.image ?

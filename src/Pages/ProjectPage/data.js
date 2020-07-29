@@ -1,5 +1,20 @@
 export const projects = [
     {
+        title: 'Gyoza',
+        className: 'gyoza',
+        defaultHorizontal: false,
+        image: require('../../Assets/Images/gyoza-logo.svg'),
+        text:
+            "Gyoza is a project I'm currently working on - it's my very own statically typed language! " +
+            "So far, I've written two key components to building the language - the lexer and the parser. The lexer tokenizes the source code - in other words, it " +
+            "splits up all of the pieces of code into small units (called tokens), such as identifiers (e.g. variable names), literals (e.g. numbers and strings), and symbols (e.g. = and *). " +
+            "After the lexer does it's job, the parser takes the tokens and organizes them into an Abstract Syntax Tree, or AST. " + 
+            "An AST represents the tokens in a syntatically-logical tree. For example, if one of the lines of the source code is \"a = 5\", " +
+            "then you'd have a Parent node holding the = sign, and two children, one holding the variable \"a\" and the other holding the number 5. " +
+            "Now I'm working on the last step, code generation - the biggest part of this whole project. I can either make this a compiled language or interpreted language. " +
+            "While making a compiled language is more difficult, I think I'm up for the challenge! Compiled languages are typically faster too, so I think it's worth the extra work."
+    },
+    {
         title: 'The Admiral',
         className: 'admiral',
         defaultHorizontal: true,
@@ -14,7 +29,7 @@ export const projects = [
     {
         title: 'Give Your Two Cents',
         className: 'two-cents',
-        defaultHorizontal: false,
+        defaultHorizontal: true,
         image: require('../../Assets/Images/giveyourtwocentslogo1.png'),
         text:
             "Give Your Two Cents is a Google Chrome extension that helps streamline the process of saving and donating. " +
