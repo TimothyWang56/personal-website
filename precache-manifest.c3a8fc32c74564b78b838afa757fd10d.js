@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "324d35b119912ef94a290671fa9278e8",
+    "revision": "47d5f7622ea1aa3b0504f5332d48fb85",
     "url": "/index.html"
   },
   {
-    "revision": "5d7b25471fe7eb891b63",
-    "url": "/static/css/main.e131940e.chunk.css"
+    "revision": "afc018131bbd63424860",
+    "url": "/static/css/main.56406bb9.chunk.css"
   },
   {
     "revision": "9bbf41123d85d5cb279d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.50d43086.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d7b25471fe7eb891b63",
-    "url": "/static/js/main.a96719a1.chunk.js"
+    "revision": "afc018131bbd63424860",
+    "url": "/static/js/main.efc4afd7.chunk.js"
   },
   {
     "revision": "0b4f3269348c2e5315e5",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e508ad042fd194bbc180b1418c0337c4",
     "url": "/static/media/giveyourtwocentslogo1.e508ad04.png"
+  },
+  {
+    "revision": "b1fbc80b16c5ceb656bf05ce156edd8e",
+    "url": "/static/media/gyoza-logo.b1fbc80b.svg"
   },
   {
     "revision": "b14f2b8c1e8dc6f72d12d5737a6b4b67",
