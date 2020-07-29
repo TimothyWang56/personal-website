@@ -22,7 +22,7 @@ const htaText =
     "I'm a Head Teaching Assistant for one of Brown University's introductory computer science courses, CSCI0170 - Computer Science: An Integrated Introduction. " +
     "The course teaches functional programming through 2 languages, Racket and ReasonML. Due to changes in our curriculum because of COVID-19, the course has been pushed " +
     "to the Spring 2021 semester, but we are still working to ensure that the Spring (likely) online course will run smoothly. " +
-    "We're also currently putting together a team of ~20 teaching assistants to help us in the Fall semester."
+    "We're also currently putting together a team of ~20 teaching assistants to help us in the Spring semester."
 
 const sciSquareText =
     "SciSquare is an online lab management platform that aims to streamline all lab project-related tasks into one interface, " +
