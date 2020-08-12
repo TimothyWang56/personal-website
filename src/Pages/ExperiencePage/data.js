@@ -42,7 +42,7 @@ export const clues = [
         num: 1,
         row: true,
         dates: 'Jan 2020 - Aug 2020',
-        title: 'Full-Stack Software Engineering Intern',
+        title: 'Software Engineering Intern',
         text: cressText,
     },
     {
