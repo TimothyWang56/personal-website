@@ -90,6 +90,10 @@ class ExperiencePage extends React.Component {
     }
 
     onSquareClick(rowIndex, colIndex) {
+        if (this.state.crossword[rowIndex][colIndex].contents === ',') {
+            return
+        }
+
         const rowClue = this.findClueNumByRow(rowIndex, colIndex);
         const colClue = this.findClueNumByCol(rowIndex, colIndex);
 

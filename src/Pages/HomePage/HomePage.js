@@ -8,7 +8,7 @@ import Page from '../../Layout/Page/Page';
 import ArticleCard from '../../Components/ArticleCard/ArticleCard';
 
 const aboutMeText = "Hey there, and welcome to my website! " + 
-    "I'm a rising junior at Brown University studying Applied Mathematics and Computer Science. " +
+    "I'm a rising senior at Brown University studying Applied Mathematics and Computer Science. " +
     "In my free time, I really enjoy watching shows, playing board games, and solving puzzles. " +
     "Since coming home during the pandemic, my friends and I have been playing a lot of online Catan, " +
     "so definitely hit me up if you love to play as well! One of my biggest hobbies growing up was " +
